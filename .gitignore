@@ -1,0 +1,27 @@
+# 🔐 Secrets (NEVER push these!)
+.env*.local
+!.env.example
+
+# 📦 Dependencies & Build
+node_modules/
+.next/
+out/
+dist/
+
+# 🛠️ IDE & OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# 📝 Logs & Cache
+*.log
+npm-debug.log*
+.cache/
+tsconfig.tsbuildinfo
+
+# 🧪 Test/Debug files (optional)
+test-env.js
+artifacts/
+cache/
